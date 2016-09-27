@@ -1,0 +1,1247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0441DF9E1D937B490005FAD8 /* TowerHelpLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DEF61D937B490005FAD8 /* TowerHelpLayer.cpp */; };
+		0441DF9F1D937B490005FAD8 /* TowerBlueStar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DEF81D937B490005FAD8 /* TowerBlueStar.cpp */; };
+		0441DFA01D937B490005FAD8 /* TopPanelLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DEF91D937B490005FAD8 /* TopPanelLayer.cpp */; };
+		0441DFA11D937B490005FAD8 /* TowerAnchor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DEFB1D937B490005FAD8 /* TowerAnchor.cpp */; };
+		0441DFA21D937B490005FAD8 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DEFC1D937B490005FAD8 /* AppDelegate.cpp */; };
+		0441DFA31D937B490005FAD8 /* DataCollectLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DEFE1D937B490005FAD8 /* DataCollectLayer.cpp */; };
+		0441DFA41D937B490005FAD8 /* TowerBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF001D937B490005FAD8 /* TowerBase.cpp */; };
+		0441DFA51D937B490005FAD8 /* BulletAnchor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF031D937B490005FAD8 /* BulletAnchor.cpp */; };
+		0441DFA61D937B490005FAD8 /* TowerFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF051D937B490005FAD8 /* TowerFactory.cpp */; };
+		0441DFA71D937B490005FAD8 /* TowerRocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF071D937B490005FAD8 /* TowerRocket.cpp */; };
+		0441DFA81D937B490005FAD8 /* CountDownLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF091D937B490005FAD8 /* CountDownLayer.cpp */; };
+		0441DFA91D937B490005FAD8 /* ScoreAndControlLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF0B1D937B490005FAD8 /* ScoreAndControlLayer.cpp */; };
+		0441DFAA1D937B490005FAD8 /* BulletLittleAnchor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF111D937B490005FAD8 /* BulletLittleAnchor.cpp */; };
+		0441DFAB1D937B490005FAD8 /* BulletManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF151D937B490005FAD8 /* BulletManager.cpp */; };
+		0441DFAC1D937B490005FAD8 /* MonsterLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF161D937B490005FAD8 /* MonsterLayer.cpp */; };
+		0441DFAD1D937B490005FAD8 /* BulletRocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF171D937B490005FAD8 /* BulletRocket.cpp */; };
+		0441DFAE1D937B490005FAD8 /* MenuPanelLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF181D937B490005FAD8 /* MenuPanelLayer.cpp */; };
+		0441DFAF1D937B490005FAD8 /* BarriersLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF1A1D937B490005FAD8 /* BarriersLayer.cpp */; };
+		0441DFB01D937B490005FAD8 /* BulletFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF1D1D937B490005FAD8 /* BulletFactory.cpp */; };
+		0441DFB11D937B490005FAD8 /* BarrierBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF1E1D937B490005FAD8 /* BarrierBase.cpp */; };
+		0441DFB21D937B490005FAD8 /* LevelConfigUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF1F1D937B490005FAD8 /* LevelConfigUtil.cpp */; };
+		0441DFB31D937B490005FAD8 /* TowerSnow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF231D937B490005FAD8 /* TowerSnow.cpp */; };
+		0441DFB41D937B490005FAD8 /* DynamicPropertyInterFace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF241D937B490005FAD8 /* DynamicPropertyInterFace.cpp */; };
+		0441DFB51D937B490005FAD8 /* BulletBlueStar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF251D937B490005FAD8 /* BulletBlueStar.cpp */; };
+		0441DFB61D937B490005FAD8 /* TowerManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF261D937B490005FAD8 /* TowerManager.cpp */; };
+		0441DFB71D937B490005FAD8 /* SceneBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF2B1D937B490005FAD8 /* SceneBase.cpp */; };
+		0441DFB81D937B490005FAD8 /* MenusLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF2C1D937B490005FAD8 /* MenusLayer.cpp */; };
+		0441DFB91D937B490005FAD8 /* VisibleRect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF2F1D937B490005FAD8 /* VisibleRect.cpp */; };
+		0441DFBA1D937B490005FAD8 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF311D937B490005FAD8 /* GameScene.cpp */; };
+		0441DFBB1D937B490005FAD8 /* CollisionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF341D937B490005FAD8 /* CollisionManager.cpp */; };
+		0441DFBC1D937B490005FAD8 /* HelpLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF351D937B490005FAD8 /* HelpLayer.cpp */; };
+		0441DFBD1D937B490005FAD8 /* TowerStar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF371D937B490005FAD8 /* TowerStar.cpp */; };
+		0441DFBE1D937B490005FAD8 /* Config.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF391D937B490005FAD8 /* Config.cpp */; };
+		0441DFBF1D937B490005FAD8 /* HelpMenuPanelLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF3C1D937B490005FAD8 /* HelpMenuPanelLayer.cpp */; };
+		0441DFC01D937B490005FAD8 /* SharedMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF3D1D937B490005FAD8 /* SharedMenu.cpp */; };
+		0441DFC11D937B490005FAD8 /* SceneManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF3E1D937B490005FAD8 /* SceneManager.cpp */; };
+		0441DFC21D937B490005FAD8 /* SceneFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF3F1D937B490005FAD8 /* SceneFactory.cpp */; };
+		0441DFC31D937B490005FAD8 /* NumSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF401D937B490005FAD8 /* NumSprite.cpp */; };
+		0441DFC41D937B490005FAD8 /* MonsterBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF411D937B490005FAD8 /* MonsterBase.cpp */; };
+		0441DFC51D937B490005FAD8 /* EntityLayerBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF421D937B490005FAD8 /* EntityLayerBase.cpp */; };
+		0441DFC61D937B490005FAD8 /* WelcomeScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF451D937B490005FAD8 /* WelcomeScene.cpp */; };
+		0441DFC71D937B490005FAD8 /* MapUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF461D937B490005FAD8 /* MapUtil.cpp */; };
+		0441DFC81D937B490005FAD8 /* SpritesLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF471D937B490005FAD8 /* SpritesLayer.cpp */; };
+		0441DFC91D937B490005FAD8 /* HpSlot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF4A1D937B490005FAD8 /* HpSlot.cpp */; };
+		0441DFCA1D937B490005FAD8 /* replace.dot.sh in Resources */ = {isa = PBXBuildFile; fileRef = 0441DF4B1D937B490005FAD8 /* replace.dot.sh */; };
+		0441DFCB1D937B490005FAD8 /* HelpScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF4E1D937B490005FAD8 /* HelpScene.cpp */; };
+		0441DFCC1D937B490005FAD8 /* MonsterBuilder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF4F1D937B490005FAD8 /* MonsterBuilder.cpp */; };
+		0441DFCD1D937B490005FAD8 /* LoadingSourceLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF501D937B490005FAD8 /* LoadingSourceLayer.cpp */; };
+		0441DFCE1D937B490005FAD8 /* MonsterHelpLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF511D937B490005FAD8 /* MonsterHelpLayer.cpp */; };
+		0441DFCF1D937B490005FAD8 /* GameEndLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF531D937B490005FAD8 /* GameEndLayer.cpp */; };
+		0441DFD01D937B490005FAD8 /* GameManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF571D937B490005FAD8 /* GameManager.cpp */; };
+		0441DFD11D937B490005FAD8 /* LoadingScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF581D937B490005FAD8 /* LoadingScene.cpp */; };
+		0441DFD21D937B490005FAD8 /* GameSettingScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF631D937B490005FAD8 /* GameSettingScene.cpp */; };
+		0441DFD31D937B490005FAD8 /* LevelSelectLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF641D937B490005FAD8 /* LevelSelectLayer.cpp */; };
+		0441DFD41D937B490005FAD8 /* TowerSun.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF681D937B490005FAD8 /* TowerSun.cpp */; };
+		0441DFD51D937B490005FAD8 /* BulletPin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF6A1D937B490005FAD8 /* BulletPin.cpp */; };
+		0441DFD61D937B490005FAD8 /* Carrot.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF6D1D937B490005FAD8 /* Carrot.cpp */; };
+		0441DFD71D937B490005FAD8 /* MoveControllerBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF6E1D937B490005FAD8 /* MoveControllerBase.cpp */; };
+		0441DFD81D937B490005FAD8 /* OptLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF6F1D937B490005FAD8 /* OptLayer.cpp */; };
+		0441DFD91D937B490005FAD8 /* PageSelectScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF711D937B490005FAD8 /* PageSelectScene.cpp */; };
+		0441DFDA1D937B490005FAD8 /* OptionLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF721D937B490005FAD8 /* OptionLayer.cpp */; };
+		0441DFDB1D937B490005FAD8 /* PauseLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF731D937B490005FAD8 /* PauseLayer.cpp */; };
+		0441DFDC1D937B490005FAD8 /* MonsterManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF751D937B490005FAD8 /* MonsterManager.cpp */; };
+		0441DFDD1D937B490005FAD8 /* MonsterFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF771D937B490005FAD8 /* MonsterFactory.cpp */; };
+		0441DFDE1D937B490005FAD8 /* PageViewLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF791D937B490005FAD8 /* PageViewLayer.cpp */; };
+		0441DFDF1D937B490005FAD8 /* BulletBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF7B1D937B490005FAD8 /* BulletBase.cpp */; };
+		0441DFE01D937B490005FAD8 /* Entity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF7D1D937B490005FAD8 /* Entity.cpp */; };
+		0441DFE11D937B490005FAD8 /* BulletsLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF801D937B490005FAD8 /* BulletsLayer.cpp */; };
+		0441DFE21D937B490005FAD8 /* BarrierManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF811D937B490005FAD8 /* BarrierManager.cpp */; };
+		0441DFE31D937B490005FAD8 /* LevelSelectScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF841D937B490005FAD8 /* LevelSelectScene.cpp */; };
+		0441DFE41D937B490005FAD8 /* BarrierFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF861D937B490005FAD8 /* BarrierFactory.cpp */; };
+		0441DFE51D937B490005FAD8 /* TowerFireBottle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF881D937B490005FAD8 /* TowerFireBottle.cpp */; };
+		0441DFE61D937B490005FAD8 /* BulletStar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF891D937B490005FAD8 /* BulletStar.cpp */; };
+		0441DFE71D937B490005FAD8 /* TowerPlane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF8B1D937B490005FAD8 /* TowerPlane.cpp */; };
+		0441DFE81D937B490005FAD8 /* SoundUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF8C1D937B490005FAD8 /* SoundUtil.cpp */; };
+		0441DFE91D937B490005FAD8 /* VictimEntityBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF8F1D937B490005FAD8 /* VictimEntityBase.cpp */; };
+		0441DFEA1D937B490005FAD8 /* TowersLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF911D937B490005FAD8 /* TowersLayer.cpp */; };
+		0441DFEB1D937B490005FAD8 /* DesignLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF931D937B490005FAD8 /* DesignLayer.cpp */; };
+		0441DFEC1D937B490005FAD8 /* TowerOptBtn.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF941D937B490005FAD8 /* TowerOptBtn.cpp */; };
+		0441DFED1D937B490005FAD8 /* LocalDataUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF951D937B490005FAD8 /* LocalDataUtil.cpp */; };
+		0441DFEE1D937B490005FAD8 /* TiledMapLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF971D937B490005FAD8 /* TiledMapLayer.cpp */; };
+		0441DFEF1D937B490005FAD8 /* TowerBall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF981D937B490005FAD8 /* TowerBall.cpp */; };
+		0441DFF01D937B490005FAD8 /* CsvUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF9A1D937B490005FAD8 /* CsvUtil.cpp */; };
+		0441DFF11D937B490005FAD8 /* TowerPin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DF9D1D937B490005FAD8 /* TowerPin.cpp */; };
+		0441E37C1D937D610005FAD8 /* csv in Resources */ = {isa = PBXBuildFile; fileRef = 0441E3771D937D610005FAD8 /* csv */; };
+		0441E37D1D937D610005FAD8 /* Themes in Resources */ = {isa = PBXBuildFile; fileRef = 0441E3781D937D610005FAD8 /* Themes */; };
+		0441E37E1D937D610005FAD8 /* level in Resources */ = {isa = PBXBuildFile; fileRef = 0441E3791D937D610005FAD8 /* level */; };
+		0441E37F1D937D610005FAD8 /* Music in Resources */ = {isa = PBXBuildFile; fileRef = 0441E37A1D937D610005FAD8 /* Music */; };
+		0441E3801D937D610005FAD8 /* loading in Resources */ = {isa = PBXBuildFile; fileRef = 0441E37B1D937D610005FAD8 /* loading */; };
+		1AC6FB21180E996B004C840B /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */; };
+		1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB07180E9839004C840B /* libcocos2d iOS.a */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 503AE0F617EB97AB00D1A890 /* Icon.icns */; };
+		503AE10017EB989F00D1A890 /* AppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FB17EB989F00D1A890 /* AppController.mm */; };
+		503AE10117EB989F00D1A890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FC17EB989F00D1A890 /* main.m */; };
+		503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 503AE0FF17EB989F00D1A890 /* RootViewController.mm */; };
+		503AE10517EB98FF00D1A890 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 503AE10317EB98FF00D1A890 /* main.cpp */; };
+		503AE11B17EB9C5A00D1A890 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 503AE11A17EB9C5A00D1A890 /* IOKit.framework */; };
+		5087E76317EB910900C73F5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		5087E76717EB910900C73F5D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
+		5087E76817EB910900C73F5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
+		5087E76917EB910900C73F5D /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
+		5087E76A17EB910900C73F5D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
+		5087E76B17EB910900C73F5D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
+		5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77217EB970100C73F5D /* Default-568h@2x.png */; };
+		5087E77E17EB970100C73F5D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77317EB970100C73F5D /* Default.png */; };
+		5087E77F17EB970100C73F5D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77417EB970100C73F5D /* Default@2x.png */; };
+		5087E78017EB970100C73F5D /* Icon-114.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77517EB970100C73F5D /* Icon-114.png */; };
+		5087E78117EB970100C73F5D /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77617EB970100C73F5D /* Icon-120.png */; };
+		5087E78217EB970100C73F5D /* Icon-144.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77717EB970100C73F5D /* Icon-144.png */; };
+		5087E78317EB970100C73F5D /* Icon-152.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77817EB970100C73F5D /* Icon-152.png */; };
+		5087E78417EB970100C73F5D /* Icon-57.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77917EB970100C73F5D /* Icon-57.png */; };
+		5087E78517EB970100C73F5D /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77A17EB970100C73F5D /* Icon-72.png */; };
+		5087E78617EB970100C73F5D /* Icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = 5087E77B17EB970100C73F5D /* Icon-76.png */; };
+		5087E78917EB974C00C73F5D /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087E78817EB974C00C73F5D /* AppKit.framework */; };
+		5087E78B17EB975400C73F5D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5087E78A17EB975400C73F5D /* OpenGL.framework */; };
+		50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629217ECD46A001EB2F8 /* Icon-40.png */; };
+		50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629317ECD46A001EB2F8 /* Icon-58.png */; };
+		50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629417ECD46A001EB2F8 /* Icon-80.png */; };
+		50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF629517ECD46A001EB2F8 /* Icon-100.png */; };
+		50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A017ECD613001EB2F8 /* Icon-29.png */; };
+		50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 50EF62A117ECD613001EB2F8 /* Icon-50.png */; };
+		521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6219F0C34300D177D7 /* Default-667h@2x.png */; };
+		521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 521A8E6319F0C34300D177D7 /* Default-736h@3x.png */; };
+		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
+		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
+		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
+		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
+		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
+		D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620B132DFF330009C878 /* OpenAL.framework */; };
+		D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620D132DFF430009C878 /* AVFoundation.framework */; };
+		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
+		D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B0611A1803AB670077942B /* CoreMotion.framework */; };
+		ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7B1B68A1F400C3958E /* libiconv.dylib */; };
+		ED545A7E1B68A1FA00C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7D1B68A1FA00C3958E /* libiconv.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AC6FAF8180E9839004C840B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1551A33F158F2AB200E66CFE;
+			remoteInfo = "cocos2dx Mac";
+		};
+		1AC6FB06180E9839004C840B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A07A4D641783777C0073F6A7;
+			remoteInfo = "cocos2dx iOS";
+		};
+		1AC6FB15180E9959004C840B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 1551A33E158F2AB200E66CFE;
+			remoteInfo = "cocos2dx Mac";
+		};
+		1AC6FB24180E99E1004C840B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A07A4C241783777C0073F6A7;
+			remoteInfo = "cocos2dx iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0441DEF31D937B490005FAD8 /* BulletManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletManager.h; sourceTree = "<group>"; };
+		0441DEF41D937B490005FAD8 /* TowerBlueStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerBlueStar.h; sourceTree = "<group>"; };
+		0441DEF51D937B490005FAD8 /* TowerHelpLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerHelpLayer.h; sourceTree = "<group>"; };
+		0441DEF61D937B490005FAD8 /* TowerHelpLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerHelpLayer.cpp; sourceTree = "<group>"; };
+		0441DEF71D937B490005FAD8 /* TowerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerFactory.h; sourceTree = "<group>"; };
+		0441DEF81D937B490005FAD8 /* TowerBlueStar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerBlueStar.cpp; sourceTree = "<group>"; };
+		0441DEF91D937B490005FAD8 /* TopPanelLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TopPanelLayer.cpp; sourceTree = "<group>"; };
+		0441DEFA1D937B490005FAD8 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		0441DEFB1D937B490005FAD8 /* TowerAnchor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerAnchor.cpp; sourceTree = "<group>"; };
+		0441DEFC1D937B490005FAD8 /* AppDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AppDelegate.cpp; sourceTree = "<group>"; };
+		0441DEFD1D937B490005FAD8 /* CsvUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CsvUtil.h; sourceTree = "<group>"; };
+		0441DEFE1D937B490005FAD8 /* DataCollectLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DataCollectLayer.cpp; sourceTree = "<group>"; };
+		0441DEFF1D937B490005FAD8 /* TowerRocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerRocket.h; sourceTree = "<group>"; };
+		0441DF001D937B490005FAD8 /* TowerBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerBase.cpp; sourceTree = "<group>"; };
+		0441DF011D937B490005FAD8 /* StringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
+		0441DF021D937B490005FAD8 /* SceneManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneManager.h; sourceTree = "<group>"; };
+		0441DF031D937B490005FAD8 /* BulletAnchor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BulletAnchor.cpp; sourceTree = "<group>"; };
+		0441DF041D937B490005FAD8 /* DynamicPropertyInterFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicPropertyInterFace.h; sourceTree = "<group>"; };
+		0441DF051D937B490005FAD8 /* TowerFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerFactory.cpp; sourceTree = "<group>"; };
+		0441DF061D937B490005FAD8 /* SceneFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneFactory.h; sourceTree = "<group>"; };
+		0441DF071D937B490005FAD8 /* TowerRocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerRocket.cpp; sourceTree = "<group>"; };
+		0441DF081D937B490005FAD8 /* BulletBlueStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletBlueStar.h; sourceTree = "<group>"; };
+		0441DF091D937B490005FAD8 /* CountDownLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountDownLayer.cpp; sourceTree = "<group>"; };
+		0441DF0A1D937B490005FAD8 /* BulletFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletFactory.h; sourceTree = "<group>"; };
+		0441DF0B1D937B490005FAD8 /* ScoreAndControlLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScoreAndControlLayer.cpp; sourceTree = "<group>"; };
+		0441DF0C1D937B490005FAD8 /* DesignLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesignLayer.h; sourceTree = "<group>"; };
+		0441DF0D1D937B490005FAD8 /* CountDownLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountDownLayer.h; sourceTree = "<group>"; };
+		0441DF0E1D937B490005FAD8 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0441DF0F1D937B490005FAD8 /* DataCollectLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCollectLayer.h; sourceTree = "<group>"; };
+		0441DF101D937B490005FAD8 /* TowerOptBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerOptBtn.h; sourceTree = "<group>"; };
+		0441DF111D937B490005FAD8 /* BulletLittleAnchor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BulletLittleAnchor.cpp; sourceTree = "<group>"; };
+		0441DF121D937B490005FAD8 /* MonsterHelpLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterHelpLayer.h; sourceTree = "<group>"; };
+		0441DF131D937B490005FAD8 /* BarrierBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrierBase.h; sourceTree = "<group>"; };
+		0441DF141D937B490005FAD8 /* TowerSnow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerSnow.h; sourceTree = "<group>"; };
+		0441DF151D937B490005FAD8 /* BulletManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BulletManager.cpp; sourceTree = "<group>"; };
+		0441DF161D937B490005FAD8 /* MonsterLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MonsterLayer.cpp; sourceTree = "<group>"; };
+		0441DF171D937B490005FAD8 /* BulletRocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BulletRocket.cpp; sourceTree = "<group>"; };
+		0441DF181D937B490005FAD8 /* MenuPanelLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuPanelLayer.cpp; sourceTree = "<group>"; };
+		0441DF191D937B490005FAD8 /* BulletLittleAnchor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletLittleAnchor.h; sourceTree = "<group>"; };
+		0441DF1A1D937B490005FAD8 /* BarriersLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BarriersLayer.cpp; sourceTree = "<group>"; };
+		0441DF1B1D937B490005FAD8 /* BarrierManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrierManager.h; sourceTree = "<group>"; };
+		0441DF1C1D937B490005FAD8 /* WelcomeScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeScene.h; sourceTree = "<group>"; };
+		0441DF1D1D937B490005FAD8 /* BulletFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BulletFactory.cpp; sourceTree = "<group>"; };
+		0441DF1E1D937B490005FAD8 /* BarrierBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BarrierBase.cpp; sourceTree = "<group>"; };
+		0441DF1F1D937B490005FAD8 /* LevelConfigUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LevelConfigUtil.cpp; sourceTree = "<group>"; };
+		0441DF201D937B490005FAD8 /* MenuPanelLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuPanelLayer.h; sourceTree = "<group>"; };
+		0441DF211D937B490005FAD8 /* BulletPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletPin.h; sourceTree = "<group>"; };
+		0441DF221D937B490005FAD8 /* ScoreAndControlLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScoreAndControlLayer.h; sourceTree = "<group>"; };
+		0441DF231D937B490005FAD8 /* TowerSnow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerSnow.cpp; sourceTree = "<group>"; };
+		0441DF241D937B490005FAD8 /* DynamicPropertyInterFace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicPropertyInterFace.cpp; sourceTree = "<group>"; };
+		0441DF251D937B490005FAD8 /* BulletBlueStar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BulletBlueStar.cpp; sourceTree = "<group>"; };
+		0441DF261D937B490005FAD8 /* TowerManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerManager.cpp; sourceTree = "<group>"; };
+		0441DF271D937B490005FAD8 /* PublicDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicDefine.h; sourceTree = "<group>"; };
+		0441DF281D937B490005FAD8 /* BarrierFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrierFactory.h; sourceTree = "<group>"; };
+		0441DF291D937B490005FAD8 /* TopPanelLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopPanelLayer.h; sourceTree = "<group>"; };
+		0441DF2A1D937B490005FAD8 /* MenusLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenusLayer.h; sourceTree = "<group>"; };
+		0441DF2B1D937B490005FAD8 /* SceneBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneBase.cpp; sourceTree = "<group>"; };
+		0441DF2C1D937B490005FAD8 /* MenusLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenusLayer.cpp; sourceTree = "<group>"; };
+		0441DF2D1D937B490005FAD8 /* TowerFireBottle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerFireBottle.h; sourceTree = "<group>"; };
+		0441DF2E1D937B490005FAD8 /* TowerSun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerSun.h; sourceTree = "<group>"; };
+		0441DF2F1D937B490005FAD8 /* VisibleRect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VisibleRect.cpp; sourceTree = "<group>"; };
+		0441DF301D937B490005FAD8 /* VisibleRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisibleRect.h; sourceTree = "<group>"; };
+		0441DF311D937B490005FAD8 /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene.cpp; sourceTree = "<group>"; };
+		0441DF321D937B490005FAD8 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		0441DF331D937B490005FAD8 /* LocalDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalDataUtil.h; sourceTree = "<group>"; };
+		0441DF341D937B490005FAD8 /* CollisionManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CollisionManager.cpp; sourceTree = "<group>"; };
+		0441DF351D937B490005FAD8 /* HelpLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelpLayer.cpp; sourceTree = "<group>"; };
+		0441DF361D937B490005FAD8 /* CollisionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionManager.h; sourceTree = "<group>"; };
+		0441DF371D937B490005FAD8 /* TowerStar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerStar.cpp; sourceTree = "<group>"; };
+		0441DF381D937B490005FAD8 /* TowerPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerPlane.h; sourceTree = "<group>"; };
+		0441DF391D937B490005FAD8 /* Config.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Config.cpp; sourceTree = "<group>"; };
+		0441DF3A1D937B490005FAD8 /* SceneBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneBase.h; sourceTree = "<group>"; };
+		0441DF3B1D937B490005FAD8 /* FileLoadUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileLoadUtil.h; sourceTree = "<group>"; };
+		0441DF3C1D937B490005FAD8 /* HelpMenuPanelLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelpMenuPanelLayer.cpp; sourceTree = "<group>"; };
+		0441DF3D1D937B490005FAD8 /* SharedMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SharedMenu.cpp; sourceTree = "<group>"; };
+		0441DF3E1D937B490005FAD8 /* SceneManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneManager.cpp; sourceTree = "<group>"; };
+		0441DF3F1D937B490005FAD8 /* SceneFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneFactory.cpp; sourceTree = "<group>"; };
+		0441DF401D937B490005FAD8 /* NumSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumSprite.cpp; sourceTree = "<group>"; };
+		0441DF411D937B490005FAD8 /* MonsterBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MonsterBase.cpp; sourceTree = "<group>"; };
+		0441DF421D937B490005FAD8 /* EntityLayerBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EntityLayerBase.cpp; sourceTree = "<group>"; };
+		0441DF431D937B490005FAD8 /* PublicSourceDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublicSourceDefine.h; sourceTree = "<group>"; };
+		0441DF441D937B490005FAD8 /* TowersLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowersLayer.h; sourceTree = "<group>"; };
+		0441DF451D937B490005FAD8 /* WelcomeScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WelcomeScene.cpp; sourceTree = "<group>"; };
+		0441DF461D937B490005FAD8 /* MapUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MapUtil.cpp; sourceTree = "<group>"; };
+		0441DF471D937B490005FAD8 /* SpritesLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SpritesLayer.cpp; sourceTree = "<group>"; };
+		0441DF481D937B490005FAD8 /* SoundUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundUtil.h; sourceTree = "<group>"; };
+		0441DF491D937B490005FAD8 /* LevelConfigUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelConfigUtil.h; sourceTree = "<group>"; };
+		0441DF4A1D937B490005FAD8 /* HpSlot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HpSlot.cpp; sourceTree = "<group>"; };
+		0441DF4B1D937B490005FAD8 /* replace.dot.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = replace.dot.sh; sourceTree = "<group>"; };
+		0441DF4C1D937B490005FAD8 /* HelpLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpLayer.h; sourceTree = "<group>"; };
+		0441DF4D1D937B490005FAD8 /* HelpMenuPanelLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpMenuPanelLayer.h; sourceTree = "<group>"; };
+		0441DF4E1D937B490005FAD8 /* HelpScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HelpScene.cpp; sourceTree = "<group>"; };
+		0441DF4F1D937B490005FAD8 /* MonsterBuilder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MonsterBuilder.cpp; sourceTree = "<group>"; };
+		0441DF501D937B490005FAD8 /* LoadingSourceLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadingSourceLayer.cpp; sourceTree = "<group>"; };
+		0441DF511D937B490005FAD8 /* MonsterHelpLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MonsterHelpLayer.cpp; sourceTree = "<group>"; };
+		0441DF521D937B490005FAD8 /* HpSlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HpSlot.h; sourceTree = "<group>"; };
+		0441DF531D937B490005FAD8 /* GameEndLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameEndLayer.cpp; sourceTree = "<group>"; };
+		0441DF541D937B490005FAD8 /* LoadingScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingScene.h; sourceTree = "<group>"; };
+		0441DF551D937B490005FAD8 /* LevelSelectLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelectLayer.h; sourceTree = "<group>"; };
+		0441DF561D937B490005FAD8 /* LoadingSourceLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingSourceLayer.h; sourceTree = "<group>"; };
+		0441DF571D937B490005FAD8 /* GameManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameManager.cpp; sourceTree = "<group>"; };
+		0441DF581D937B490005FAD8 /* LoadingScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LoadingScene.cpp; sourceTree = "<group>"; };
+		0441DF591D937B490005FAD8 /* PageSelectScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageSelectScene.h; sourceTree = "<group>"; };
+		0441DF5A1D937B490005FAD8 /* GameEndLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameEndLayer.h; sourceTree = "<group>"; };
+		0441DF5B1D937B490005FAD8 /* MapUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapUtil.h; sourceTree = "<group>"; };
+		0441DF5C1D937B490005FAD8 /* MonsterBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterBuilder.h; sourceTree = "<group>"; };
+		0441DF5D1D937B490005FAD8 /* MonsterBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterBase.h; sourceTree = "<group>"; };
+		0441DF5E1D937B490005FAD8 /* TowerStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerStar.h; sourceTree = "<group>"; };
+		0441DF5F1D937B490005FAD8 /* SpritesLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpritesLayer.h; sourceTree = "<group>"; };
+		0441DF601D937B490005FAD8 /* GameSettingScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameSettingScene.h; sourceTree = "<group>"; };
+		0441DF611D937B490005FAD8 /* BulletRocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletRocket.h; sourceTree = "<group>"; };
+		0441DF621D937B490005FAD8 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		0441DF631D937B490005FAD8 /* GameSettingScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameSettingScene.cpp; sourceTree = "<group>"; };
+		0441DF641D937B490005FAD8 /* LevelSelectLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LevelSelectLayer.cpp; sourceTree = "<group>"; };
+		0441DF651D937B490005FAD8 /* NumSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumSprite.h; sourceTree = "<group>"; };
+		0441DF661D937B490005FAD8 /* EntityLayerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityLayerBase.h; sourceTree = "<group>"; };
+		0441DF671D937B490005FAD8 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
+		0441DF681D937B490005FAD8 /* TowerSun.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerSun.cpp; sourceTree = "<group>"; };
+		0441DF691D937B490005FAD8 /* BulletBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletBase.h; sourceTree = "<group>"; };
+		0441DF6A1D937B490005FAD8 /* BulletPin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BulletPin.cpp; sourceTree = "<group>"; };
+		0441DF6B1D937B490005FAD8 /* HelpScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpScene.h; sourceTree = "<group>"; };
+		0441DF6C1D937B490005FAD8 /* Carrot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Carrot.h; sourceTree = "<group>"; };
+		0441DF6D1D937B490005FAD8 /* Carrot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Carrot.cpp; sourceTree = "<group>"; };
+		0441DF6E1D937B490005FAD8 /* MoveControllerBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MoveControllerBase.cpp; sourceTree = "<group>"; };
+		0441DF6F1D937B490005FAD8 /* OptLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OptLayer.cpp; sourceTree = "<group>"; };
+		0441DF701D937B490005FAD8 /* MoveControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoveControllerBase.h; sourceTree = "<group>"; };
+		0441DF711D937B490005FAD8 /* PageSelectScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PageSelectScene.cpp; sourceTree = "<group>"; };
+		0441DF721D937B490005FAD8 /* OptionLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OptionLayer.cpp; sourceTree = "<group>"; };
+		0441DF731D937B490005FAD8 /* PauseLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PauseLayer.cpp; sourceTree = "<group>"; };
+		0441DF741D937B490005FAD8 /* OptLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptLayer.h; sourceTree = "<group>"; };
+		0441DF751D937B490005FAD8 /* MonsterManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MonsterManager.cpp; sourceTree = "<group>"; };
+		0441DF761D937B490005FAD8 /* PageViewLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageViewLayer.h; sourceTree = "<group>"; };
+		0441DF771D937B490005FAD8 /* MonsterFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MonsterFactory.cpp; sourceTree = "<group>"; };
+		0441DF781D937B490005FAD8 /* MonsterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterManager.h; sourceTree = "<group>"; };
+		0441DF791D937B490005FAD8 /* PageViewLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PageViewLayer.cpp; sourceTree = "<group>"; };
+		0441DF7A1D937B490005FAD8 /* MonsterLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterLayer.h; sourceTree = "<group>"; };
+		0441DF7B1D937B490005FAD8 /* BulletBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BulletBase.cpp; sourceTree = "<group>"; };
+		0441DF7C1D937B490005FAD8 /* BulletAnchor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletAnchor.h; sourceTree = "<group>"; };
+		0441DF7D1D937B490005FAD8 /* Entity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Entity.cpp; sourceTree = "<group>"; };
+		0441DF7E1D937B490005FAD8 /* MonsterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonsterFactory.h; sourceTree = "<group>"; };
+		0441DF7F1D937B490005FAD8 /* BulletStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletStar.h; sourceTree = "<group>"; };
+		0441DF801D937B490005FAD8 /* BulletsLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BulletsLayer.cpp; sourceTree = "<group>"; };
+		0441DF811D937B490005FAD8 /* BarrierManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BarrierManager.cpp; sourceTree = "<group>"; };
+		0441DF821D937B490005FAD8 /* TowerBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerBall.h; sourceTree = "<group>"; };
+		0441DF831D937B490005FAD8 /* TiledMapLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiledMapLayer.h; sourceTree = "<group>"; };
+		0441DF841D937B490005FAD8 /* LevelSelectScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LevelSelectScene.cpp; sourceTree = "<group>"; };
+		0441DF851D937B490005FAD8 /* BulletsLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletsLayer.h; sourceTree = "<group>"; };
+		0441DF861D937B490005FAD8 /* BarrierFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BarrierFactory.cpp; sourceTree = "<group>"; };
+		0441DF871D937B490005FAD8 /* BarriersLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarriersLayer.h; sourceTree = "<group>"; };
+		0441DF881D937B490005FAD8 /* TowerFireBottle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerFireBottle.cpp; sourceTree = "<group>"; };
+		0441DF891D937B490005FAD8 /* BulletStar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BulletStar.cpp; sourceTree = "<group>"; };
+		0441DF8A1D937B490005FAD8 /* OptionLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionLayer.h; sourceTree = "<group>"; };
+		0441DF8B1D937B490005FAD8 /* TowerPlane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerPlane.cpp; sourceTree = "<group>"; };
+		0441DF8C1D937B490005FAD8 /* SoundUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundUtil.cpp; sourceTree = "<group>"; };
+		0441DF8D1D937B490005FAD8 /* TowerPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerPin.h; sourceTree = "<group>"; };
+		0441DF8E1D937B490005FAD8 /* SharedMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedMenu.h; sourceTree = "<group>"; };
+		0441DF8F1D937B490005FAD8 /* VictimEntityBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VictimEntityBase.cpp; sourceTree = "<group>"; };
+		0441DF901D937B490005FAD8 /* TowerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerManager.h; sourceTree = "<group>"; };
+		0441DF911D937B490005FAD8 /* TowersLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowersLayer.cpp; sourceTree = "<group>"; };
+		0441DF921D937B490005FAD8 /* VictimEntityBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VictimEntityBase.h; sourceTree = "<group>"; };
+		0441DF931D937B490005FAD8 /* DesignLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DesignLayer.cpp; sourceTree = "<group>"; };
+		0441DF941D937B490005FAD8 /* TowerOptBtn.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerOptBtn.cpp; sourceTree = "<group>"; };
+		0441DF951D937B490005FAD8 /* LocalDataUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LocalDataUtil.cpp; sourceTree = "<group>"; };
+		0441DF961D937B490005FAD8 /* LevelSelectScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelectScene.h; sourceTree = "<group>"; };
+		0441DF971D937B490005FAD8 /* TiledMapLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TiledMapLayer.cpp; sourceTree = "<group>"; };
+		0441DF981D937B490005FAD8 /* TowerBall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerBall.cpp; sourceTree = "<group>"; };
+		0441DF991D937B490005FAD8 /* TowerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerBase.h; sourceTree = "<group>"; };
+		0441DF9A1D937B490005FAD8 /* CsvUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CsvUtil.cpp; sourceTree = "<group>"; };
+		0441DF9B1D937B490005FAD8 /* PauseLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PauseLayer.h; sourceTree = "<group>"; };
+		0441DF9C1D937B490005FAD8 /* TowerAnchor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerAnchor.h; sourceTree = "<group>"; };
+		0441DF9D1D937B490005FAD8 /* TowerPin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerPin.cpp; sourceTree = "<group>"; };
+		0441E3771D937D610005FAD8 /* csv */ = {isa = PBXFileReference; lastKnownFileType = folder; path = csv; sourceTree = "<group>"; };
+		0441E3781D937D610005FAD8 /* Themes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Themes; sourceTree = "<group>"; };
+		0441E3791D937D610005FAD8 /* level */ = {isa = PBXFileReference; lastKnownFileType = folder; path = level; sourceTree = "<group>"; };
+		0441E37A1D937D610005FAD8 /* Music */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Music; sourceTree = "<group>"; };
+		0441E37B1D937D610005FAD8 /* loading */ = {isa = PBXFileReference; lastKnownFileType = folder; path = loading; sourceTree = "<group>"; };
+		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
+		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* aStar-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aStar-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		503AE0F617EB97AB00D1A890 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		503AE0F717EB97AB00D1A890 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		503AE0FA17EB989F00D1A890 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ios/AppController.h; sourceTree = SOURCE_ROOT; };
+		503AE0FB17EB989F00D1A890 /* AppController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppController.mm; path = ios/AppController.mm; sourceTree = SOURCE_ROOT; };
+		503AE0FC17EB989F00D1A890 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ios/main.m; sourceTree = SOURCE_ROOT; };
+		503AE0FD17EB989F00D1A890 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = ios/Prefix.pch; sourceTree = SOURCE_ROOT; };
+		503AE0FE17EB989F00D1A890 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = ios/RootViewController.h; sourceTree = SOURCE_ROOT; };
+		503AE0FF17EB989F00D1A890 /* RootViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RootViewController.mm; path = ios/RootViewController.mm; sourceTree = SOURCE_ROOT; };
+		503AE10317EB98FF00D1A890 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = mac/main.cpp; sourceTree = "<group>"; };
+		503AE10417EB98FF00D1A890 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prefix.pch; path = mac/Prefix.pch; sourceTree = "<group>"; };
+		503AE11117EB99EE00D1A890 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
+		503AE11A17EB9C5A00D1A890 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		5087E76F17EB910900C73F5D /* aStar-desktop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "aStar-desktop.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5087E77217EB970100C73F5D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5087E77317EB970100C73F5D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5087E77417EB970100C73F5D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5087E77517EB970100C73F5D /* Icon-114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-114.png"; sourceTree = "<group>"; };
+		5087E77617EB970100C73F5D /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		5087E77717EB970100C73F5D /* Icon-144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-144.png"; sourceTree = "<group>"; };
+		5087E77817EB970100C73F5D /* Icon-152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-152.png"; sourceTree = "<group>"; };
+		5087E77917EB970100C73F5D /* Icon-57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-57.png"; sourceTree = "<group>"; };
+		5087E77A17EB970100C73F5D /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		5087E77B17EB970100C73F5D /* Icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-76.png"; sourceTree = "<group>"; };
+		5087E77C17EB970100C73F5D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5087E78817EB974C00C73F5D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5087E78A17EB975400C73F5D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		50EF629217ECD46A001EB2F8 /* Icon-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-40.png"; sourceTree = "<group>"; };
+		50EF629317ECD46A001EB2F8 /* Icon-58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-58.png"; sourceTree = "<group>"; };
+		50EF629417ECD46A001EB2F8 /* Icon-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-80.png"; sourceTree = "<group>"; };
+		50EF629517ECD46A001EB2F8 /* Icon-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-100.png"; sourceTree = "<group>"; };
+		50EF62A017ECD613001EB2F8 /* Icon-29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-29.png"; sourceTree = "<group>"; };
+		50EF62A117ECD613001EB2F8 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		521A8E6219F0C34300D177D7 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-667h@2x.png"; sourceTree = "<group>"; };
+		521A8E6319F0C34300D177D7 /* Default-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-736h@3x.png"; sourceTree = "<group>"; };
+		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D44C620B132DFF330009C878 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		D44C620D132DFF430009C878 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D44C620F132DFF4E0009C878 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D6B0611A1803AB670077942B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		ED545A7B1B68A1F400C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
+		ED545A7D1B68A1FA00C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */,
+				52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */,
+				1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */,
+				D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */,
+				BF1712471292920000B8313A /* libz.dylib in Frameworks */,
+				BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */,
+				D44C620C132DFF330009C878 /* OpenAL.framework in Frameworks */,
+				D44C620E132DFF430009C878 /* AVFoundation.framework in Frameworks */,
+				D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5087E75C17EB910900C73F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED545A7E1B68A1FA00C3958E /* libiconv.dylib in Frameworks */,
+				1AC6FB21180E996B004C840B /* libcocos2d Mac.a in Frameworks */,
+				5087E76717EB910900C73F5D /* libz.dylib in Frameworks */,
+				8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */,
+				503AE11B17EB9C5A00D1A890 /* IOKit.framework in Frameworks */,
+				5087E78B17EB975400C73F5D /* OpenGL.framework in Frameworks */,
+				5087E78917EB974C00C73F5D /* AppKit.framework in Frameworks */,
+				5087E76317EB910900C73F5D /* Foundation.framework in Frameworks */,
+				5087E76817EB910900C73F5D /* QuartzCore.framework in Frameworks */,
+				5087E76917EB910900C73F5D /* OpenAL.framework in Frameworks */,
+				5087E76A17EB910900C73F5D /* AVFoundation.framework in Frameworks */,
+				5087E76B17EB910900C73F5D /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				5087E77117EB970100C73F5D /* Icons */,
+				503AE0FA17EB989F00D1A890 /* AppController.h */,
+				503AE0FB17EB989F00D1A890 /* AppController.mm */,
+				503AE0FC17EB989F00D1A890 /* main.m */,
+				503AE0FD17EB989F00D1A890 /* Prefix.pch */,
+				503AE0FE17EB989F00D1A890 /* RootViewController.h */,
+				503AE0FF17EB989F00D1A890 /* RootViewController.mm */,
+			);
+			name = ios;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* aStar-mobile.app */,
+				5087E76F17EB910900C73F5D /* aStar-desktop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AC6FAE6180E9839004C840B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */,
+				1AC6FB07180E9839004C840B /* libcocos2d iOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				46880B8319C43A87006E1F66 /* Classes */,
+				46880B7519C43A67006E1F66 /* Resources */,
+				1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				080E96DDFE201D6D7F000001 /* ios */,
+				503AE10617EB990700D1A890 /* mac */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED545A7D1B68A1FA00C3958E /* libiconv.dylib */,
+				ED545A7B1B68A1F400C3958E /* libiconv.dylib */,
+				8262943D1AAF051F00CB7CF7 /* Security.framework */,
+				52B47A461A53D09B004E4C60 /* Security.framework */,
+				D6B0611A1803AB670077942B /* CoreMotion.framework */,
+				503AE11A17EB9C5A00D1A890 /* IOKit.framework */,
+				503AE11117EB99EE00D1A890 /* libcurl.dylib */,
+				5087E78A17EB975400C73F5D /* OpenGL.framework */,
+				5087E78817EB974C00C73F5D /* AppKit.framework */,
+				1ACB3243164770DE00914215 /* libcurl.a */,
+				BF170DB412928DE900B8313A /* libz.dylib */,
+				D44C620F132DFF4E0009C878 /* AudioToolbox.framework */,
+				D44C620D132DFF430009C878 /* AVFoundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				D44C620B132DFF330009C878 /* OpenAL.framework */,
+				BF170DB012928DE900B8313A /* OpenGLES.framework */,
+				BF1C47EA1293683800B63C5D /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46880B7519C43A67006E1F66 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0441E3771D937D610005FAD8 /* csv */,
+				0441E3781D937D610005FAD8 /* Themes */,
+				0441E3791D937D610005FAD8 /* level */,
+				0441E37A1D937D610005FAD8 /* Music */,
+				0441E37B1D937D610005FAD8 /* loading */,
+			);
+			name = Resources;
+			path = ../Resources;
+			sourceTree = "<group>";
+		};
+		46880B8319C43A87006E1F66 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0441DEF31D937B490005FAD8 /* BulletManager.h */,
+				0441DEF41D937B490005FAD8 /* TowerBlueStar.h */,
+				0441DEF51D937B490005FAD8 /* TowerHelpLayer.h */,
+				0441DEF61D937B490005FAD8 /* TowerHelpLayer.cpp */,
+				0441DEF71D937B490005FAD8 /* TowerFactory.h */,
+				0441DEF81D937B490005FAD8 /* TowerBlueStar.cpp */,
+				0441DEF91D937B490005FAD8 /* TopPanelLayer.cpp */,
+				0441DEFA1D937B490005FAD8 /* Config.h */,
+				0441DEFB1D937B490005FAD8 /* TowerAnchor.cpp */,
+				0441DF0E1D937B490005FAD8 /* AppDelegate.h */,
+				0441DEFC1D937B490005FAD8 /* AppDelegate.cpp */,
+				0441DEFD1D937B490005FAD8 /* CsvUtil.h */,
+				0441DEFE1D937B490005FAD8 /* DataCollectLayer.cpp */,
+				0441DEFF1D937B490005FAD8 /* TowerRocket.h */,
+				0441DF001D937B490005FAD8 /* TowerBase.cpp */,
+				0441DF011D937B490005FAD8 /* StringUtil.h */,
+				0441DF021D937B490005FAD8 /* SceneManager.h */,
+				0441DF031D937B490005FAD8 /* BulletAnchor.cpp */,
+				0441DF041D937B490005FAD8 /* DynamicPropertyInterFace.h */,
+				0441DF051D937B490005FAD8 /* TowerFactory.cpp */,
+				0441DF061D937B490005FAD8 /* SceneFactory.h */,
+				0441DF071D937B490005FAD8 /* TowerRocket.cpp */,
+				0441DF081D937B490005FAD8 /* BulletBlueStar.h */,
+				0441DF091D937B490005FAD8 /* CountDownLayer.cpp */,
+				0441DF0A1D937B490005FAD8 /* BulletFactory.h */,
+				0441DF0B1D937B490005FAD8 /* ScoreAndControlLayer.cpp */,
+				0441DF0C1D937B490005FAD8 /* DesignLayer.h */,
+				0441DF0D1D937B490005FAD8 /* CountDownLayer.h */,
+				0441DF0F1D937B490005FAD8 /* DataCollectLayer.h */,
+				0441DF101D937B490005FAD8 /* TowerOptBtn.h */,
+				0441DF111D937B490005FAD8 /* BulletLittleAnchor.cpp */,
+				0441DF121D937B490005FAD8 /* MonsterHelpLayer.h */,
+				0441DF131D937B490005FAD8 /* BarrierBase.h */,
+				0441DF141D937B490005FAD8 /* TowerSnow.h */,
+				0441DF151D937B490005FAD8 /* BulletManager.cpp */,
+				0441DF161D937B490005FAD8 /* MonsterLayer.cpp */,
+				0441DF171D937B490005FAD8 /* BulletRocket.cpp */,
+				0441DF181D937B490005FAD8 /* MenuPanelLayer.cpp */,
+				0441DF191D937B490005FAD8 /* BulletLittleAnchor.h */,
+				0441DF1A1D937B490005FAD8 /* BarriersLayer.cpp */,
+				0441DF1B1D937B490005FAD8 /* BarrierManager.h */,
+				0441DF1C1D937B490005FAD8 /* WelcomeScene.h */,
+				0441DF1D1D937B490005FAD8 /* BulletFactory.cpp */,
+				0441DF1E1D937B490005FAD8 /* BarrierBase.cpp */,
+				0441DF1F1D937B490005FAD8 /* LevelConfigUtil.cpp */,
+				0441DF201D937B490005FAD8 /* MenuPanelLayer.h */,
+				0441DF211D937B490005FAD8 /* BulletPin.h */,
+				0441DF221D937B490005FAD8 /* ScoreAndControlLayer.h */,
+				0441DF231D937B490005FAD8 /* TowerSnow.cpp */,
+				0441DF241D937B490005FAD8 /* DynamicPropertyInterFace.cpp */,
+				0441DF251D937B490005FAD8 /* BulletBlueStar.cpp */,
+				0441DF261D937B490005FAD8 /* TowerManager.cpp */,
+				0441DF271D937B490005FAD8 /* PublicDefine.h */,
+				0441DF281D937B490005FAD8 /* BarrierFactory.h */,
+				0441DF291D937B490005FAD8 /* TopPanelLayer.h */,
+				0441DF2A1D937B490005FAD8 /* MenusLayer.h */,
+				0441DF2B1D937B490005FAD8 /* SceneBase.cpp */,
+				0441DF2C1D937B490005FAD8 /* MenusLayer.cpp */,
+				0441DF2D1D937B490005FAD8 /* TowerFireBottle.h */,
+				0441DF2E1D937B490005FAD8 /* TowerSun.h */,
+				0441DF2F1D937B490005FAD8 /* VisibleRect.cpp */,
+				0441DF301D937B490005FAD8 /* VisibleRect.h */,
+				0441DF311D937B490005FAD8 /* GameScene.cpp */,
+				0441DF321D937B490005FAD8 /* GameScene.h */,
+				0441DF331D937B490005FAD8 /* LocalDataUtil.h */,
+				0441DF341D937B490005FAD8 /* CollisionManager.cpp */,
+				0441DF351D937B490005FAD8 /* HelpLayer.cpp */,
+				0441DF361D937B490005FAD8 /* CollisionManager.h */,
+				0441DF371D937B490005FAD8 /* TowerStar.cpp */,
+				0441DF381D937B490005FAD8 /* TowerPlane.h */,
+				0441DF391D937B490005FAD8 /* Config.cpp */,
+				0441DF3A1D937B490005FAD8 /* SceneBase.h */,
+				0441DF3B1D937B490005FAD8 /* FileLoadUtil.h */,
+				0441DF3C1D937B490005FAD8 /* HelpMenuPanelLayer.cpp */,
+				0441DF3D1D937B490005FAD8 /* SharedMenu.cpp */,
+				0441DF3E1D937B490005FAD8 /* SceneManager.cpp */,
+				0441DF3F1D937B490005FAD8 /* SceneFactory.cpp */,
+				0441DF401D937B490005FAD8 /* NumSprite.cpp */,
+				0441DF411D937B490005FAD8 /* MonsterBase.cpp */,
+				0441DF421D937B490005FAD8 /* EntityLayerBase.cpp */,
+				0441DF431D937B490005FAD8 /* PublicSourceDefine.h */,
+				0441DF441D937B490005FAD8 /* TowersLayer.h */,
+				0441DF451D937B490005FAD8 /* WelcomeScene.cpp */,
+				0441DF461D937B490005FAD8 /* MapUtil.cpp */,
+				0441DF471D937B490005FAD8 /* SpritesLayer.cpp */,
+				0441DF481D937B490005FAD8 /* SoundUtil.h */,
+				0441DF491D937B490005FAD8 /* LevelConfigUtil.h */,
+				0441DF4A1D937B490005FAD8 /* HpSlot.cpp */,
+				0441DF4B1D937B490005FAD8 /* replace.dot.sh */,
+				0441DF4C1D937B490005FAD8 /* HelpLayer.h */,
+				0441DF4D1D937B490005FAD8 /* HelpMenuPanelLayer.h */,
+				0441DF4E1D937B490005FAD8 /* HelpScene.cpp */,
+				0441DF4F1D937B490005FAD8 /* MonsterBuilder.cpp */,
+				0441DF501D937B490005FAD8 /* LoadingSourceLayer.cpp */,
+				0441DF511D937B490005FAD8 /* MonsterHelpLayer.cpp */,
+				0441DF521D937B490005FAD8 /* HpSlot.h */,
+				0441DF531D937B490005FAD8 /* GameEndLayer.cpp */,
+				0441DF541D937B490005FAD8 /* LoadingScene.h */,
+				0441DF551D937B490005FAD8 /* LevelSelectLayer.h */,
+				0441DF561D937B490005FAD8 /* LoadingSourceLayer.h */,
+				0441DF571D937B490005FAD8 /* GameManager.cpp */,
+				0441DF581D937B490005FAD8 /* LoadingScene.cpp */,
+				0441DF591D937B490005FAD8 /* PageSelectScene.h */,
+				0441DF5A1D937B490005FAD8 /* GameEndLayer.h */,
+				0441DF5B1D937B490005FAD8 /* MapUtil.h */,
+				0441DF5C1D937B490005FAD8 /* MonsterBuilder.h */,
+				0441DF5D1D937B490005FAD8 /* MonsterBase.h */,
+				0441DF5E1D937B490005FAD8 /* TowerStar.h */,
+				0441DF5F1D937B490005FAD8 /* SpritesLayer.h */,
+				0441DF601D937B490005FAD8 /* GameSettingScene.h */,
+				0441DF611D937B490005FAD8 /* BulletRocket.h */,
+				0441DF621D937B490005FAD8 /* Entity.h */,
+				0441DF631D937B490005FAD8 /* GameSettingScene.cpp */,
+				0441DF641D937B490005FAD8 /* LevelSelectLayer.cpp */,
+				0441DF651D937B490005FAD8 /* NumSprite.h */,
+				0441DF661D937B490005FAD8 /* EntityLayerBase.h */,
+				0441DF671D937B490005FAD8 /* GameManager.h */,
+				0441DF681D937B490005FAD8 /* TowerSun.cpp */,
+				0441DF691D937B490005FAD8 /* BulletBase.h */,
+				0441DF6A1D937B490005FAD8 /* BulletPin.cpp */,
+				0441DF6B1D937B490005FAD8 /* HelpScene.h */,
+				0441DF6C1D937B490005FAD8 /* Carrot.h */,
+				0441DF6D1D937B490005FAD8 /* Carrot.cpp */,
+				0441DF6E1D937B490005FAD8 /* MoveControllerBase.cpp */,
+				0441DF6F1D937B490005FAD8 /* OptLayer.cpp */,
+				0441DF701D937B490005FAD8 /* MoveControllerBase.h */,
+				0441DF711D937B490005FAD8 /* PageSelectScene.cpp */,
+				0441DF721D937B490005FAD8 /* OptionLayer.cpp */,
+				0441DF731D937B490005FAD8 /* PauseLayer.cpp */,
+				0441DF741D937B490005FAD8 /* OptLayer.h */,
+				0441DF751D937B490005FAD8 /* MonsterManager.cpp */,
+				0441DF761D937B490005FAD8 /* PageViewLayer.h */,
+				0441DF771D937B490005FAD8 /* MonsterFactory.cpp */,
+				0441DF781D937B490005FAD8 /* MonsterManager.h */,
+				0441DF791D937B490005FAD8 /* PageViewLayer.cpp */,
+				0441DF7A1D937B490005FAD8 /* MonsterLayer.h */,
+				0441DF7B1D937B490005FAD8 /* BulletBase.cpp */,
+				0441DF7C1D937B490005FAD8 /* BulletAnchor.h */,
+				0441DF7D1D937B490005FAD8 /* Entity.cpp */,
+				0441DF7E1D937B490005FAD8 /* MonsterFactory.h */,
+				0441DF7F1D937B490005FAD8 /* BulletStar.h */,
+				0441DF801D937B490005FAD8 /* BulletsLayer.cpp */,
+				0441DF811D937B490005FAD8 /* BarrierManager.cpp */,
+				0441DF821D937B490005FAD8 /* TowerBall.h */,
+				0441DF831D937B490005FAD8 /* TiledMapLayer.h */,
+				0441DF841D937B490005FAD8 /* LevelSelectScene.cpp */,
+				0441DF851D937B490005FAD8 /* BulletsLayer.h */,
+				0441DF861D937B490005FAD8 /* BarrierFactory.cpp */,
+				0441DF871D937B490005FAD8 /* BarriersLayer.h */,
+				0441DF881D937B490005FAD8 /* TowerFireBottle.cpp */,
+				0441DF891D937B490005FAD8 /* BulletStar.cpp */,
+				0441DF8A1D937B490005FAD8 /* OptionLayer.h */,
+				0441DF8B1D937B490005FAD8 /* TowerPlane.cpp */,
+				0441DF8C1D937B490005FAD8 /* SoundUtil.cpp */,
+				0441DF8D1D937B490005FAD8 /* TowerPin.h */,
+				0441DF8E1D937B490005FAD8 /* SharedMenu.h */,
+				0441DF8F1D937B490005FAD8 /* VictimEntityBase.cpp */,
+				0441DF901D937B490005FAD8 /* TowerManager.h */,
+				0441DF911D937B490005FAD8 /* TowersLayer.cpp */,
+				0441DF921D937B490005FAD8 /* VictimEntityBase.h */,
+				0441DF931D937B490005FAD8 /* DesignLayer.cpp */,
+				0441DF941D937B490005FAD8 /* TowerOptBtn.cpp */,
+				0441DF951D937B490005FAD8 /* LocalDataUtil.cpp */,
+				0441DF961D937B490005FAD8 /* LevelSelectScene.h */,
+				0441DF971D937B490005FAD8 /* TiledMapLayer.cpp */,
+				0441DF981D937B490005FAD8 /* TowerBall.cpp */,
+				0441DF991D937B490005FAD8 /* TowerBase.h */,
+				0441DF9A1D937B490005FAD8 /* CsvUtil.cpp */,
+				0441DF9B1D937B490005FAD8 /* PauseLayer.h */,
+				0441DF9C1D937B490005FAD8 /* TowerAnchor.h */,
+				0441DF9D1D937B490005FAD8 /* TowerPin.cpp */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+		503AE0F517EB97AB00D1A890 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				503AE0F617EB97AB00D1A890 /* Icon.icns */,
+				503AE0F717EB97AB00D1A890 /* Info.plist */,
+			);
+			name = Icons;
+			path = mac;
+			sourceTree = SOURCE_ROOT;
+		};
+		503AE10617EB990700D1A890 /* mac */ = {
+			isa = PBXGroup;
+			children = (
+				503AE0F517EB97AB00D1A890 /* Icons */,
+				503AE10317EB98FF00D1A890 /* main.cpp */,
+				503AE10417EB98FF00D1A890 /* Prefix.pch */,
+			);
+			name = mac;
+			sourceTree = "<group>";
+		};
+		5087E77117EB970100C73F5D /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				521A8E6219F0C34300D177D7 /* Default-667h@2x.png */,
+				521A8E6319F0C34300D177D7 /* Default-736h@3x.png */,
+				5087E77217EB970100C73F5D /* Default-568h@2x.png */,
+				5087E77317EB970100C73F5D /* Default.png */,
+				5087E77417EB970100C73F5D /* Default@2x.png */,
+				50EF62A017ECD613001EB2F8 /* Icon-29.png */,
+				50EF62A117ECD613001EB2F8 /* Icon-50.png */,
+				50EF629217ECD46A001EB2F8 /* Icon-40.png */,
+				50EF629317ECD46A001EB2F8 /* Icon-58.png */,
+				50EF629417ECD46A001EB2F8 /* Icon-80.png */,
+				50EF629517ECD46A001EB2F8 /* Icon-100.png */,
+				5087E77517EB970100C73F5D /* Icon-114.png */,
+				5087E77617EB970100C73F5D /* Icon-120.png */,
+				5087E77717EB970100C73F5D /* Icon-144.png */,
+				5087E77817EB970100C73F5D /* Icon-152.png */,
+				5087E77917EB970100C73F5D /* Icon-57.png */,
+				5087E77A17EB970100C73F5D /* Icon-72.png */,
+				5087E77B17EB970100C73F5D /* Icon-76.png */,
+				5087E77C17EB970100C73F5D /* Info.plist */,
+			);
+			name = Icons;
+			path = ios;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* aStar-mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "aStar-mobile" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AC6FB25180E99E1004C840B /* PBXTargetDependency */,
+			);
+			name = "aStar-mobile";
+			productName = iphone;
+			productReference = 1D6058910D05DD3D006BFB54 /* aStar-mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5087E73D17EB910900C73F5D /* aStar-desktop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5087E76C17EB910900C73F5D /* Build configuration list for PBXNativeTarget "aStar-desktop" */;
+			buildPhases = (
+				5087E74817EB910900C73F5D /* Resources */,
+				5087E75617EB910900C73F5D /* Sources */,
+				5087E75C17EB910900C73F5D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AC6FB16180E9959004C840B /* PBXTargetDependency */,
+			);
+			name = "aStar-desktop";
+			productName = iphone;
+			productReference = 5087E76F17EB910900C73F5D /* aStar-desktop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "aStar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 1AC6FAE6180E9839004C840B /* Products */;
+					ProjectRef = 1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* aStar-mobile */,
+				5087E73D17EB910900C73F5D /* aStar-desktop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d Mac.a";
+			remoteRef = 1AC6FAF8180E9839004C840B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		1AC6FB07180E9839004C840B /* libcocos2d iOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d iOS.a";
+			remoteRef = 1AC6FB06180E9839004C840B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5087E78117EB970100C73F5D /* Icon-120.png in Resources */,
+				5087E78617EB970100C73F5D /* Icon-76.png in Resources */,
+				5087E77F17EB970100C73F5D /* Default@2x.png in Resources */,
+				0441DFCA1D937B490005FAD8 /* replace.dot.sh in Resources */,
+				50EF629917ECD46A001EB2F8 /* Icon-100.png in Resources */,
+				5087E78317EB970100C73F5D /* Icon-152.png in Resources */,
+				5087E77D17EB970100C73F5D /* Default-568h@2x.png in Resources */,
+				0441E37C1D937D610005FAD8 /* csv in Resources */,
+				5087E78517EB970100C73F5D /* Icon-72.png in Resources */,
+				521A8E6519F0C34300D177D7 /* Default-736h@3x.png in Resources */,
+				50EF62A317ECD613001EB2F8 /* Icon-50.png in Resources */,
+				0441E37F1D937D610005FAD8 /* Music in Resources */,
+				0441E37E1D937D610005FAD8 /* level in Resources */,
+				5087E78017EB970100C73F5D /* Icon-114.png in Resources */,
+				50EF62A217ECD613001EB2F8 /* Icon-29.png in Resources */,
+				50EF629617ECD46A001EB2F8 /* Icon-40.png in Resources */,
+				5087E78217EB970100C73F5D /* Icon-144.png in Resources */,
+				50EF629817ECD46A001EB2F8 /* Icon-80.png in Resources */,
+				5087E78417EB970100C73F5D /* Icon-57.png in Resources */,
+				5087E77E17EB970100C73F5D /* Default.png in Resources */,
+				0441E37D1D937D610005FAD8 /* Themes in Resources */,
+				0441E3801D937D610005FAD8 /* loading in Resources */,
+				521A8E6419F0C34300D177D7 /* Default-667h@2x.png in Resources */,
+				50EF629717ECD46A001EB2F8 /* Icon-58.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5087E74817EB910900C73F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503AE0F817EB97AB00D1A890 /* Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0441DFE61D937B490005FAD8 /* BulletStar.cpp in Sources */,
+				0441DFAC1D937B490005FAD8 /* MonsterLayer.cpp in Sources */,
+				0441DFF01D937B490005FAD8 /* CsvUtil.cpp in Sources */,
+				0441DFEA1D937B490005FAD8 /* TowersLayer.cpp in Sources */,
+				0441DFD71D937B490005FAD8 /* MoveControllerBase.cpp in Sources */,
+				0441DFD21D937B490005FAD8 /* GameSettingScene.cpp in Sources */,
+				0441DFE31D937B490005FAD8 /* LevelSelectScene.cpp in Sources */,
+				0441DFC31D937B490005FAD8 /* NumSprite.cpp in Sources */,
+				0441DFD51D937B490005FAD8 /* BulletPin.cpp in Sources */,
+				0441DFAE1D937B490005FAD8 /* MenuPanelLayer.cpp in Sources */,
+				0441DFEE1D937B490005FAD8 /* TiledMapLayer.cpp in Sources */,
+				0441DFDA1D937B490005FAD8 /* OptionLayer.cpp in Sources */,
+				0441DFA41D937B490005FAD8 /* TowerBase.cpp in Sources */,
+				0441DFAF1D937B490005FAD8 /* BarriersLayer.cpp in Sources */,
+				0441DFCE1D937B490005FAD8 /* MonsterHelpLayer.cpp in Sources */,
+				0441DFCB1D937B490005FAD8 /* HelpScene.cpp in Sources */,
+				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				0441DFE91D937B490005FAD8 /* VictimEntityBase.cpp in Sources */,
+				0441DFBA1D937B490005FAD8 /* GameScene.cpp in Sources */,
+				0441DFC21D937B490005FAD8 /* SceneFactory.cpp in Sources */,
+				0441DFC71D937B490005FAD8 /* MapUtil.cpp in Sources */,
+				0441DFA71D937B490005FAD8 /* TowerRocket.cpp in Sources */,
+				0441DF9E1D937B490005FAD8 /* TowerHelpLayer.cpp in Sources */,
+				0441DFE51D937B490005FAD8 /* TowerFireBottle.cpp in Sources */,
+				0441DFB21D937B490005FAD8 /* LevelConfigUtil.cpp in Sources */,
+				0441DFE01D937B490005FAD8 /* Entity.cpp in Sources */,
+				0441DFD11D937B490005FAD8 /* LoadingScene.cpp in Sources */,
+				0441DFA81D937B490005FAD8 /* CountDownLayer.cpp in Sources */,
+				0441DFDE1D937B490005FAD8 /* PageViewLayer.cpp in Sources */,
+				0441DFCC1D937B490005FAD8 /* MonsterBuilder.cpp in Sources */,
+				0441DFF11D937B490005FAD8 /* TowerPin.cpp in Sources */,
+				0441DFC11D937B490005FAD8 /* SceneManager.cpp in Sources */,
+				0441DFA91D937B490005FAD8 /* ScoreAndControlLayer.cpp in Sources */,
+				0441DFA31D937B490005FAD8 /* DataCollectLayer.cpp in Sources */,
+				0441DFDD1D937B490005FAD8 /* MonsterFactory.cpp in Sources */,
+				0441DFD01D937B490005FAD8 /* GameManager.cpp in Sources */,
+				0441DFB51D937B490005FAD8 /* BulletBlueStar.cpp in Sources */,
+				0441DFC51D937B490005FAD8 /* EntityLayerBase.cpp in Sources */,
+				0441DFD91D937B490005FAD8 /* PageSelectScene.cpp in Sources */,
+				0441DFAD1D937B490005FAD8 /* BulletRocket.cpp in Sources */,
+				0441DFC91D937B490005FAD8 /* HpSlot.cpp in Sources */,
+				0441DFEB1D937B490005FAD8 /* DesignLayer.cpp in Sources */,
+				0441DFB91D937B490005FAD8 /* VisibleRect.cpp in Sources */,
+				0441DFBB1D937B490005FAD8 /* CollisionManager.cpp in Sources */,
+				0441DFB11D937B490005FAD8 /* BarrierBase.cpp in Sources */,
+				0441DFD61D937B490005FAD8 /* Carrot.cpp in Sources */,
+				0441DFAA1D937B490005FAD8 /* BulletLittleAnchor.cpp in Sources */,
+				503AE10117EB989F00D1A890 /* main.m in Sources */,
+				0441DFB01D937B490005FAD8 /* BulletFactory.cpp in Sources */,
+				0441DFD81D937B490005FAD8 /* OptLayer.cpp in Sources */,
+				0441DFC01D937B490005FAD8 /* SharedMenu.cpp in Sources */,
+				0441DFC41D937B490005FAD8 /* MonsterBase.cpp in Sources */,
+				0441DFA61D937B490005FAD8 /* TowerFactory.cpp in Sources */,
+				0441DFAB1D937B490005FAD8 /* BulletManager.cpp in Sources */,
+				0441DFA21D937B490005FAD8 /* AppDelegate.cpp in Sources */,
+				0441DFA01D937B490005FAD8 /* TopPanelLayer.cpp in Sources */,
+				0441DFBF1D937B490005FAD8 /* HelpMenuPanelLayer.cpp in Sources */,
+				0441DFD41D937B490005FAD8 /* TowerSun.cpp in Sources */,
+				0441DFDC1D937B490005FAD8 /* MonsterManager.cpp in Sources */,
+				0441DFEF1D937B490005FAD8 /* TowerBall.cpp in Sources */,
+				0441DFB31D937B490005FAD8 /* TowerSnow.cpp in Sources */,
+				0441DFBD1D937B490005FAD8 /* TowerStar.cpp in Sources */,
+				0441DFE21D937B490005FAD8 /* BarrierManager.cpp in Sources */,
+				0441DFD31D937B490005FAD8 /* LevelSelectLayer.cpp in Sources */,
+				0441DFCF1D937B490005FAD8 /* GameEndLayer.cpp in Sources */,
+				0441DFA51D937B490005FAD8 /* BulletAnchor.cpp in Sources */,
+				0441DFA11D937B490005FAD8 /* TowerAnchor.cpp in Sources */,
+				0441DFB71D937B490005FAD8 /* SceneBase.cpp in Sources */,
+				0441DFB81D937B490005FAD8 /* MenusLayer.cpp in Sources */,
+				0441DFE11D937B490005FAD8 /* BulletsLayer.cpp in Sources */,
+				0441DFB61D937B490005FAD8 /* TowerManager.cpp in Sources */,
+				0441DFC61D937B490005FAD8 /* WelcomeScene.cpp in Sources */,
+				0441DFB41D937B490005FAD8 /* DynamicPropertyInterFace.cpp in Sources */,
+				0441DFDB1D937B490005FAD8 /* PauseLayer.cpp in Sources */,
+				0441DFEC1D937B490005FAD8 /* TowerOptBtn.cpp in Sources */,
+				0441DFDF1D937B490005FAD8 /* BulletBase.cpp in Sources */,
+				0441DFE41D937B490005FAD8 /* BarrierFactory.cpp in Sources */,
+				0441DFBE1D937B490005FAD8 /* Config.cpp in Sources */,
+				0441DFBC1D937B490005FAD8 /* HelpLayer.cpp in Sources */,
+				0441DFE81D937B490005FAD8 /* SoundUtil.cpp in Sources */,
+				0441DFE71D937B490005FAD8 /* TowerPlane.cpp in Sources */,
+				0441DFCD1D937B490005FAD8 /* LoadingSourceLayer.cpp in Sources */,
+				0441DFED1D937B490005FAD8 /* LocalDataUtil.cpp in Sources */,
+				0441DFC81D937B490005FAD8 /* SpritesLayer.cpp in Sources */,
+				0441DF9F1D937B490005FAD8 /* TowerBlueStar.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5087E75617EB910900C73F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AC6FB16180E9959004C840B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "cocos2dx Mac";
+			targetProxy = 1AC6FB15180E9959004C840B /* PBXContainerItemProxy */;
+		};
+		1AC6FB25180E99E1004C840B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "cocos2dx iOS";
+			targetProxy = 1AC6FB24180E99E1004C840B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				ENABLE_BITCODE = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ios/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					CC_TARGET_OS_IPHONE,
+					"COCOS2D_DEBUG=1",
+					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../cocos2d/cocos/platform/ios",
+					"$(SRCROOT)/../cocos2d/cocos/platform/ios/Simulation",
+				);
+				INFOPLIST_FILE = ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"$(_COCOS_LIB_IOS_BEGIN)",
+					"$(_COCOS_LIB_IOS_END)",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COMPRESS_PNG_FILES = NO;
+				ENABLE_BITCODE = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = ios/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					CC_TARGET_OS_IPHONE,
+					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../cocos2d/cocos/platform/ios",
+					"$(SRCROOT)/../cocos2d/cocos/platform/ios/Simulation",
+				);
+				INFOPLIST_FILE = ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"$(_COCOS_LIB_IOS_BEGIN)",
+					"$(_COCOS_LIB_IOS_END)",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_IOS_BEGIN) $(_COCOS_HEADER_IOS_END)";
+				VALID_ARCHS = "arm64 armv7";
+			};
+			name = Release;
+		};
+		5087E76D17EB910900C73F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = mac/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					CC_TARGET_OS_MAC,
+					"COCOS2D_DEBUG=1",
+					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../cocos2d/cocos/platform/mac",
+					"$(SRCROOT)/../cocos2d/external/glfw3/include/mac",
+				);
+				INFOPLIST_FILE = mac/Info.plist;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"$(_COCOS_LIB_MAC_BEGIN)",
+					"$(_COCOS_LIB_MAC_END)",
+				);
+				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_MAC_BEGIN) $(_COCOS_HEADER_MAC_END)";
+			};
+			name = Debug;
+		};
+		5087E76E17EB910900C73F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = mac/Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					USE_FILE32API,
+					CC_TARGET_OS_MAC,
+					"CC_ENABLE_CHIPMUNK_INTEGRATION=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../cocos2d/cocos/platform/mac",
+					"$(SRCROOT)/../cocos2d/external/glfw3/include/mac",
+				);
+				INFOPLIST_FILE = mac/Info.plist;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = (
+					"$(_COCOS_LIB_MAC_BEGIN)",
+					"$(_COCOS_LIB_MAC_END)",
+				);
+				USER_HEADER_SEARCH_PATHS = "$(_COCOS_HEADER_MAC_BEGIN) $(_COCOS_HEADER_MAC_END)";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				COPY_PHASE_STRIP = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../cocos2d",
+					"$(SRCROOT)/../cocos2d/cocos",
+					"$(SRCROOT)/../cocos2d/cocos/base",
+					"$(SRCROOT)/../cocos2d/cocos/physics",
+					"$(SRCROOT)/../cocos2d/cocos/math",
+					"$(SRCROOT)/../cocos2d/cocos/2d",
+					"$(SRCROOT)/../cocos2d/cocos/ui",
+					"$(SRCROOT)/../cocos2d/cocos/network",
+					"$(SRCROOT)/../cocos2d/cocos/audio/include",
+					"$(SRCROOT)/../cocos2d/cocos/editor-support",
+					"$(SRCROOT)/../cocos2d/extensions",
+					"$(SRCROOT)/../cocos2d/external",
+					"$(SRCROOT)/../cocos2d/external/chipmunk/include/chipmunk",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(SRCROOT)/../cocos2d",
+					"$(SRCROOT)/../cocos2d/cocos",
+					"$(SRCROOT)/../cocos2d/cocos/base",
+					"$(SRCROOT)/../cocos2d/cocos/physics",
+					"$(SRCROOT)/../cocos2d/cocos/math",
+					"$(SRCROOT)/../cocos2d/cocos/2d",
+					"$(SRCROOT)/../cocos2d/cocos/ui",
+					"$(SRCROOT)/../cocos2d/cocos/network",
+					"$(SRCROOT)/../cocos2d/cocos/audio/include",
+					"$(SRCROOT)/../cocos2d/cocos/editor-support",
+					"$(SRCROOT)/../cocos2d/extensions",
+					"$(SRCROOT)/../cocos2d/external",
+					"$(SRCROOT)/../cocos2d/external/chipmunk/include/chipmunk",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "aStar-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5087E76C17EB910900C73F5D /* Build configuration list for PBXNativeTarget "aStar-desktop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5087E76D17EB910900C73F5D /* Debug */,
+				5087E76E17EB910900C73F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "aStar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
