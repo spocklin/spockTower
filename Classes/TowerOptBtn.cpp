@@ -86,9 +86,10 @@ void TowerOptBtn::createMenuAndItems(){
 void TowerOptBtn::createTowerMenu(){
 	int i = 1;
 	for (auto &iterTower : LevelConfigUtil::getInstance()->getCurLevelTowersInfo()){
-		//log("%s", (iterTower + "01" + PHOTOPOSTFIX).c_str());
+		//获取塔的ID
 		int _TowerId = CsvUtil::getInstance()->findValueInWithLine(iterTower, 1, TOWERCSVFILE);
 		std::stringstream StoI;
+		//从配置文件中获取改塔的建造消耗
 		std::string _sUpgradeCost = CsvUtil::getInstance()->getText(_TowerId, en_CreateCost, TOWERCSVFILE);
 		StoI << _sUpgradeCost;
 		int _upGradeMoney;

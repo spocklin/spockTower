@@ -133,7 +133,7 @@ void GameScene::addLayers()
     
 	addChild(_pTiledMapLayer);
     
-	// addChild(_pBarriersLayer);
+	addChild(_pBarriersLayer);
     
 	addChild(_pTowersLayer);
     
@@ -152,7 +152,7 @@ void GameScene::onEnter()
     
     addLayers();
 
-	// createBarriers();
+	createBarriers();
 
 	_pMonsterLayer->addEntity(_pCarrot);
 
