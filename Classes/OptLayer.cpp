@@ -1,15 +1,7 @@
-//
-//  OptLayer.cpp
-//  CarrotFantasy
-//
-//  Created by Yan on 14-9-16.
-//
-//
 
 #include "OptLayer.h"
 #include "MapUtil.h"
 #include "TowerManager.h"
-#include "TowerBase.h"
 #include "BarrierBase.h"
 #include "BarrierManager.h"
 #include "TowerOptBtn.h"
@@ -46,19 +38,19 @@ void OptLayer::listener()
 {
 	auto listen = EventListenerTouchOneByOne::create();
 	listen->onTouchBegan = [=](Touch* t, Event* e){
-        auto tPos = t->getLocation();
+        startPoint = t->getLocation();
         
-        if(tPos.y > 590) return true;
+        if(startPoint.y > 590) return true;
 		if (towerOptBtn->getTag()){
 			towerOptBtn->setTag(0);
 			towerOptBtn->hideTowerOpt();
 		}else{
 			Carrot* carrot = dynamic_cast<GameScene*>(Director::getInstance()->getRunningScene())->getCarrot();
-			if (carrot->getBoundingBox().containsPoint(t->getLocation())){
+			if (carrot->getBoundingBox().containsPoint(startPoint)){
 				return true;
 			}
 			for (auto & toweritem : TowerManager::getInstance()->getTowerVec()){
-				if (toweritem->getBoundingBox().containsPoint(t->getLocation())){
+				if (toweritem->getBoundingBox().containsPoint(startPoint)){
 					towerOptBtn->setTag(1);
 					towerOptBtn->setPosition(toweritem->getPosition());
 					towerOptBtn->showTowerOpt();
@@ -67,7 +59,7 @@ void OptLayer::listener()
 				}
 			}
 			for (auto & blankitem : MapUtil::getInstance()->getEffectTowerPoses()){
-				if (blankitem.containsPoint(t->getLocation())){
+				if (blankitem.containsPoint(startPoint)){
 					towerOptBtn->setTag(1);
 					towerOptBtn->setPosition(blankitem.origin + blankitem.size/2);
 					towerOptBtn->showTowerOpt();
@@ -79,7 +71,7 @@ void OptLayer::listener()
 			auto tMonsterVec = MonsterManager::getInstance()->getMonsterVec();
 			for (auto & monsterIter : tMonsterVec)
 			{
-				if (monsterIter->getBoundingBox().containsPoint(t->getLocation()))
+				if (monsterIter->getBoundingBox().containsPoint(startPoint))
 				{
 					auto tMonsterLockFlag = monsterIter->getAtkTarget();
 					BarrierManager::getInstance()->clearBeAtkLockState();
@@ -91,7 +83,7 @@ void OptLayer::listener()
 			auto tBarrierVec = BarrierManager::getInstance()->getBarrierVec();
 			for (auto & barrierItem : tBarrierVec)
 			{
-				if (barrierItem->getBoundingBox().containsPoint(t->getLocation()))
+				if (barrierItem->getBoundingBox().containsPoint(startPoint))
 				{
 					auto tBarrierLockFlag = barrierItem->getAtkTarget();
 					MonsterManager::getInstance()->clearBeAtkLockState();
@@ -103,10 +95,23 @@ void OptLayer::listener()
             SoundUtil::getInstance()->playEffect(SELECTFAULT);
 			_pforbiddenSp->setVisible(true);
 			_pforbiddenSp->runAction(Sequence::create(FadeIn::create(0.1), FadeOut::create(1), NULL));
-			_pforbiddenSp->setPosition(t->getLocation());
+			_pforbiddenSp->setPosition(startPoint);
 		}
-		
 		return true;
 	};
+	listen->onTouchEnded = [=](Touch* x, Event* e){
+		endPoint = x->getLocation();
+        log("========endx,eny[%f][%f]",endPoint.x,endPoint.y);
+		for (auto & toweritem : TowerManager::getInstance()->getTowerVec()){
+			if (toweritem->getBoundingBox().containsPoint(startPoint)){
+				for (auto & blankitem : MapUtil::getInstance()->getEffectTowerPoses()){
+					if (blankitem.containsPoint(endPoint)){
+						towerOptBtn->setPosition(blankitem.origin + blankitem.size/2);
+						toweritem->setPosition(blankitem.origin + blankitem.size/2);
+					}
+                }
+			}
+		}
+    };
 	Director::getInstance()->getEventDispatcher()->addEventListenerWithSceneGraphPriority(listen, this);
 }

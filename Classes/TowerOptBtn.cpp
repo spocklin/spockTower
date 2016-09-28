@@ -122,9 +122,11 @@ void TowerOptBtn::createTowerMenu(){
 			default:
 				break;
 			}
+			//建造塔
 			TowerFactory::createTower(_towerType, this->getPosition());
             SoundUtil::getInstance()->playEffect(BUILDTOWER);
 			int createMoney = -CsvUtil::getInstance()->getInt(_TowerId, en_CreateCost, TOWERCSVFILE);
+			//通知前改变
 			NotificationCenter::getInstance()->postNotification("moneyChange", (Ref*)(&createMoney));
 		});
 		_Toweritem->setTag(_upGradeMoney);
@@ -136,7 +138,7 @@ void TowerOptBtn::createTowerMenu(){
 	_pCreateMenu1->alignItemsHorizontallyWithPadding(1);
 	if (_pCreateTowerItemSpVec->size() > 4)	_pCreateMenu2->alignItemsHorizontallyWithPadding(1);
 }
-
+//显示塔的范围
 void TowerOptBtn::gradeTowerMenu(TowerBase* touchTower){
 	_pGradeMenu->removeAllChildrenWithCleanup(true);
 	auto _pSpriteFrameCache = SpriteFrameCache::getInstance();

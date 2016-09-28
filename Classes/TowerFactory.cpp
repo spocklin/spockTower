@@ -1,10 +1,4 @@
-//
-//  TowerFactory.cpp
-//  CarrotFantasy
-//
-//  Created by Yan on 14-9-13.
-//
-//
+//建造产生塔
 
 #include "TowerFactory.h"
 #include "TowerBase.h"

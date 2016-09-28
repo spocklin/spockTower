@@ -31,6 +31,8 @@ protected:
 	virtual void listener();
 	
 protected:
+	Point startPoint;
+	Point endPoint;
 	TowerOptBtn* towerOptBtn;
 	bool _KeyOptBtn;
 	Sprite* _pforbiddenSp;

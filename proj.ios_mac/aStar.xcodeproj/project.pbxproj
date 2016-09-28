@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043259E31D9BABA000AEDC69 /* BaseTowerLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 043259E11D9BABA000AEDC69 /* BaseTowerLayer.cpp */; };
 		0441DF9E1D937B490005FAD8 /* TowerHelpLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DEF61D937B490005FAD8 /* TowerHelpLayer.cpp */; };
 		0441DF9F1D937B490005FAD8 /* TowerBlueStar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DEF81D937B490005FAD8 /* TowerBlueStar.cpp */; };
 		0441DFA01D937B490005FAD8 /* TopPanelLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0441DEF91D937B490005FAD8 /* TopPanelLayer.cpp */; };
@@ -178,6 +179,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		043259E11D9BABA000AEDC69 /* BaseTowerLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseTowerLayer.cpp; sourceTree = "<group>"; };
+		043259E21D9BABA000AEDC69 /* BaseTowerLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTowerLayer.h; sourceTree = "<group>"; };
 		0441DEF31D937B490005FAD8 /* BulletManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BulletManager.h; sourceTree = "<group>"; };
 		0441DEF41D937B490005FAD8 /* TowerBlueStar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerBlueStar.h; sourceTree = "<group>"; };
 		0441DEF51D937B490005FAD8 /* TowerHelpLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerHelpLayer.h; sourceTree = "<group>"; };
@@ -710,6 +713,8 @@
 				0441DF9B1D937B490005FAD8 /* PauseLayer.h */,
 				0441DF9C1D937B490005FAD8 /* TowerAnchor.h */,
 				0441DF9D1D937B490005FAD8 /* TowerPin.cpp */,
+				043259E11D9BABA000AEDC69 /* BaseTowerLayer.cpp */,
+				043259E21D9BABA000AEDC69 /* BaseTowerLayer.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -980,6 +985,7 @@
 				0441DFBE1D937B490005FAD8 /* Config.cpp in Sources */,
 				0441DFBC1D937B490005FAD8 /* HelpLayer.cpp in Sources */,
 				0441DFE81D937B490005FAD8 /* SoundUtil.cpp in Sources */,
+				043259E31D9BABA000AEDC69 /* BaseTowerLayer.cpp in Sources */,
 				0441DFE71D937B490005FAD8 /* TowerPlane.cpp in Sources */,
 				0441DFCD1D937B490005FAD8 /* LoadingSourceLayer.cpp in Sources */,
 				0441DFED1D937B490005FAD8 /* LocalDataUtil.cpp in Sources */,

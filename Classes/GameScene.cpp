@@ -22,6 +22,7 @@
 #include "GameEndLayer.h"
 #include "SoundUtil.h"
 #include "LevelConfigUtil.h"
+#include "BaseTowerLayer.h"
 
 GameScene::~GameScene()
 {
@@ -33,6 +34,7 @@ GameScene::~GameScene()
 	CC_SAFE_RELEASE_NULL(_pBulletsLayer);
 	CC_SAFE_RELEASE_NULL(_pTiledMapLayer);
 	CC_SAFE_RELEASE_NULL(_pCarrot);
+    CC_SAFE_RELEASE_NULL(_pBaseTowerLayer);
 	clearAllManager();
     CC_SAFE_DELETE(_pSourceVec);
 }
@@ -86,7 +88,10 @@ void GameScene::createLayers()
     _pOptLayer = OptLayer::create();
     _pOptLayer->retain();
     dynamic_cast<TowerOptBtn*>(_pOptLayer->getChildByName("towerOptBtn"))->setFuncCheckMoney(CC_CALLBACK_0(ScoreAndControllerLayer::getCurMoney, dynamic_cast<ScoreAndControllerLayer*>(_pScoreAndControllerLayer)));
-    
+    //底下新增一排建筑列表
+    _pBaseTowerLayer = BaseTowerLayer::create();
+    _pBaseTowerLayer->retain();
+
     _pCarrot = Carrot::create();
     _pCarrot->retain();
 }
@@ -144,6 +149,8 @@ void GameScene::addLayers()
 	addChild(_pOptLayer);
     
 	addChild(_pScoreAndControllerLayer);
+
+    addChild(_pBaseTowerLayer);
 }
 
 void GameScene::onEnter()
