@@ -1,3 +1,5 @@
+//存储每盘开始时候的塔的信息
+
 #include "TowerBase.h"
 #include "TowerFactory.h"
 #include "BaseTowerLayer.h"
@@ -16,14 +18,19 @@ bool BaseTowerLayer::init()
     
     return bRet;
 }
-
 void BaseTowerLayer::initTower()
 {
-    TowerFactory::createTower(en_RocketTower,Vec2(100,100));
-    TowerFactory::createTower(en_FireBottleTower,Vec2(100,100));
-    TowerFactory::createTower(en_SnowTower,Vec2(100,100));
+    std::vector<Vec2> vec;
+    vec.push_back(Vec2(500,20));
+    vec.push_back(Vec2(600,20));
+    vec.push_back(Vec2(700,20));
+    TowerFactory::createTower(en_GreenTower,Vec2(0,0));
+    TowerFactory::createTower(en_FireBottleTower,Vec2(0,0));
+    TowerFactory::createTower(en_SnowTower,Vec2(0,0));
+    int i=0;
     for (auto & toweritem : TowerManager::getInstance()->getTowerVec()){
-        toweritem->setPosition(Vec2(100,300));
-        log("======towermanagerhave");
+        toweritem->setPosition(vec[i]);
+        toweritem->setState(false);
+        i++;
     }
 }

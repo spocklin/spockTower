@@ -18,9 +18,9 @@ TowerBase *TowerFactory::createTower(const TowerType &rTowerType, Vec2 tposition
 	int towerId = 0;
 	switch (rTowerType)
 	{
-	case en_GreenTower: towerId = 1; break;
-	case en_CloverTower:towerId = 4; break;
-	case en_ShitTower: towerId = 7; break;
+	case en_GreenTower: towerId = 1; pTower = TowerBase::create(towerId); break;
+	case en_CloverTower:towerId = 4; pTower = TowerBase::create(towerId); break;
+	case en_ShitTower: towerId = 7; pTower = TowerBase::create(towerId); break;
 	case en_BallTower: towerId = 10; pTower = TowerBall::create(); break;
 	case en_StarTower: towerId = 13; pTower = TowerStar::create(); break;
 	case en_FireBottleTower: towerId = 16; pTower = TowerFireBottle::create(); break;
@@ -34,7 +34,6 @@ TowerBase *TowerFactory::createTower(const TowerType &rTowerType, Vec2 tposition
 	default:
 		break;
 	}
-	if (towerId < 8) pTower = TowerBase::create(towerId);
 	pTower->setPosition(tposition);
 	return pTower;
 }

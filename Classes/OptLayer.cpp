@@ -46,9 +46,14 @@ void OptLayer::listener()
 			towerOptBtn->hideTowerOpt();
 		}else{
 			Carrot* carrot = dynamic_cast<GameScene*>(Director::getInstance()->getRunningScene())->getCarrot();
+			// auto pedestal = dynamic_cast<GameScene*>(Director::getInstance()->getRunningScene())->getTowerPedestal();
 			if (carrot->getBoundingBox().containsPoint(startPoint)){
 				return true;
 			}
+			// if (pedestal->getBoundingBox().containsPoint(startPoint)){
+			// 	log("======是否执行了这段");
+			// 	return true;
+			// }
 			for (auto & toweritem : TowerManager::getInstance()->getTowerVec()){
 				if (toweritem->getBoundingBox().containsPoint(startPoint)){
 					towerOptBtn->setTag(1);
@@ -66,7 +71,6 @@ void OptLayer::listener()
 					towerOptBtn->showCreateMenu();
                     return true;
 				}
-                
 			}
 			auto tMonsterVec = MonsterManager::getInstance()->getMonsterVec();
 			for (auto & monsterIter : tMonsterVec)

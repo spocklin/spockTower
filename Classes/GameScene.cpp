@@ -100,12 +100,12 @@ void GameScene::preLoadSource()
 {
     
     auto tICurPageIndex = SceneManager::getInstance()->getCurPageIndex() + 1;
-    auto tICurLevelIndex = SceneManager::getInstance()->getCurLevelIndex() + 1;
-    auto tSSourceBg1Str = StringUtils::format(GAMESCENEBG1, tICurPageIndex);
+     auto tICurLevelIndex = SceneManager::getInstance()->getCurLevelIndex() + 1;
+    // auto tSSourceBg1Str = StringUtils::format(GAMESCENEBG1, tICurPageIndex);
     
     LevelConfigUtil::getInstance()->loadLevelConfig();
     // StringUtils::format("Themes/Theme%d/BG0/BG1-hd",1)
-    _pSourceVec->push_back(StringUtils::format(GAMESCENEBG1, tICurPageIndex));
+    // _pSourceVec->push_back(StringUtils::format(GAMESCENEBG1, tICurPageIndex));
     _pSourceVec->push_back(StringUtils::format(GAMESCENEMAP, tICurPageIndex, tICurLevelIndex) + "BG-hd");
     _pSourceVec->push_back(StringUtils::format(GAMESCENEBARRIER, tICurPageIndex));
     _pSourceVec->push_back(StringUtils::format(GAMESCENEMONSTER1, tICurPageIndex));
@@ -137,10 +137,12 @@ void GameScene::addLayers()
     addChild(pCountDownLayer, 100);
     
 	addChild(_pTiledMapLayer);
-    
+
 	addChild(_pBarriersLayer);
     
-	addChild(_pTowersLayer);
+    addChild(_pBaseTowerLayer);
+	
+    addChild(_pTowersLayer);
     
 	addChild(_pMonsterLayer);
     
@@ -150,7 +152,7 @@ void GameScene::addLayers()
     
 	addChild(_pScoreAndControllerLayer);
 
-    addChild(_pBaseTowerLayer);
+
 }
 
 void GameScene::onEnter()

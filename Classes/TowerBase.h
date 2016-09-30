@@ -40,6 +40,7 @@ public:
 
 	virtual void hideGradeMark();
 
+    virtual void setState(bool state);
 	/**
 	*  check target is in atk range
 	*
@@ -53,6 +54,8 @@ public:
 	*/
 	virtual void upGrade();
 protected:
+    //塔的状态，活跃状态可以动，休眠状态不动
+    bool T_state = true;
     /**
      *  deadAction func
      */

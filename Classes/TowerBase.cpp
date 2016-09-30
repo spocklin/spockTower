@@ -199,18 +199,31 @@ void TowerBase::initTower()
 	for (int i = 1; i <= 2; i++){
 		aniGradeMark->addSpriteFrame(SpriteFrameCache::getInstance()->getSpriteFrameByName(StringUtils::format("showupgrade0%d.png", i)));
 	}
+	//aniGradeMark升级标志
 	aniGradeMark->setDelayPerUnit(0.5);
 	aniGradeMark->setLoops(-1);
 	_pGradeMark->setZOrder(3);
 	_pGradeMark->runAction(Animate::create(aniGradeMark));
 	_pGradeMark->setPosition(0, 50);
 	addChild(_pGradeMark);
-
+	//显示塔的升级标志
 	_pTowerPanel = Sprite::createWithSpriteFrameName(pCsvUtil->getText(_iId, en_TowerBase, TOWERCSVFILE));
     _pTowerPanel->retain();
 	_pTowerPanel->setZOrder(1);
 	addChild(_pTowerPanel);
 	getSprite()->setZOrder(2);
+}
+
+void TowerBase::setState(bool tower_state)
+{
+    log("======是否执行了这段[%d]",tower_state);
+    T_state = tower_state;
+	if (T_state == false){
+		_pTowerPanel->setVisible(false);
+	}else{
+		_pTowerPanel->setVisible(true);
+	}
+
 }
 
 int TowerBase::getTowerGradeCost(){
@@ -222,9 +235,11 @@ int TowerBase::getTowerGradeCost(){
 }
 
 void TowerBase::showGradeMark(){
+	if (T_state == false)return;
 	_pGradeMark->setVisible(true);
 }
 
 void TowerBase::hideGradeMark(){
+	if (T_state == false)return;
 	_pGradeMark->setVisible(false);
 }

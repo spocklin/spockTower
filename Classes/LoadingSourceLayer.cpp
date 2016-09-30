@@ -49,15 +49,14 @@ void LoadingSourceLayer::loadSource()
     static auto tIndex = 0;
     for(auto &iterSourceFile : ALLSOURCE)
         pDirector->getInstance()->getTextureCache()->addImageAsync(iterSourceFile + PHOTOPOSTFIX, [&](Texture2D *pTexture)
-                                                                   {
-                                                                       SpriteFrameCache::getInstance()->addSpriteFramesWithFile(iterSourceFile + PLISTPOSTFIX, pTexture);
-                                                                       ++tIndex;
-                                                                       auto tPercentage = tIndex * 1.0f / ALLSOURCE.size() * 100;
-                                                                       (dynamic_cast<ProgressTimer*>(getChildByName("progressBar")))->setPercentage(tPercentage);
-                                                                       _pLoadingTitle->setString(StringUtils::format("Loading %.f%%", tPercentage));
-                                                                       if(tIndex == ALLSOURCE.size()) _funShowMenuPanel();
-
-                                                                   });
+        {
+            SpriteFrameCache::getInstance()->addSpriteFramesWithFile(iterSourceFile + PLISTPOSTFIX, pTexture);
+            ++tIndex;
+            auto tPercentage = tIndex * 1.0f / ALLSOURCE.size() * 100;
+            (dynamic_cast<ProgressTimer*>(getChildByName("progressBar")))->setPercentage(tPercentage);
+            _pLoadingTitle->setString(StringUtils::format("Loading %.f%%", tPercentage));
+            if(tIndex == ALLSOURCE.size()) _funShowMenuPanel();
+        });
 }
 
 void LoadingSourceLayer::setFuncShowMenuPanel(const std::function<void ()> &rFuncShowMenuPanel)

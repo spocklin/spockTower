@@ -7,6 +7,7 @@ class BaseTowerLayer:public Layer
 {
 public:
     CREATE_FUNC(BaseTowerLayer);
+	static Sprite * TowerPedestal;			//开局塔的底座
 protected:
     virtual bool init();
     virtual void initTower();

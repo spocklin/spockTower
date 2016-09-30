@@ -22,6 +22,7 @@ const static std::vector<std::string> ALLSOURCE =
     "Themes/scene/setting01-hd",
     "Themes/scene/setting02-hd",
     "Themes/Items/Items02-hd",
+    "Themes/Items/Items11-hd",
     "Themes/Items/touming-hd",
     "Themes/scene/gamemenu-hd",
     "Themes/scene/weibo-hd",
@@ -32,7 +33,13 @@ const static std::vector<std::string> ALLSOURCE =
     "Themes/Items/Items01-hd",
     "Themes/scene/help_3-hd",
     "Themes/scene/help_2-hd",
-    "Themes/scene/help_1-hd"
+    "Themes/scene/help_1-hd",
+    "Themes/Theme1/BG0/BG1-hd",
+    "Themes/Theme1/BG0/BG2-hd",
+    "Themes/Theme2/BG0/BG1-hd",
+    "Themes/Theme2/BG0/BG2-hd",
+    "Themes/Theme3/BG0/BG1-hd",
+    "Themes/Theme3/BG0/BG2-hd",
 };
 
 /**

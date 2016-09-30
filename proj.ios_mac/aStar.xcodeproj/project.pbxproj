@@ -97,6 +97,7 @@
 		0441E37E1D937D610005FAD8 /* level in Resources */ = {isa = PBXBuildFile; fileRef = 0441E3791D937D610005FAD8 /* level */; };
 		0441E37F1D937D610005FAD8 /* Music in Resources */ = {isa = PBXBuildFile; fileRef = 0441E37A1D937D610005FAD8 /* Music */; };
 		0441E3801D937D610005FAD8 /* loading in Resources */ = {isa = PBXBuildFile; fileRef = 0441E37B1D937D610005FAD8 /* loading */; };
+		04B757681D9CF71000FF1F32 /* TowerPedestal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 04B757661D9CF71000FF1F32 /* TowerPedestal.cpp */; };
 		1AC6FB21180E996B004C840B /* libcocos2d Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FAF9180E9839004C840B /* libcocos2d Mac.a */; };
 		1AC6FB30180E99EB004C840B /* libcocos2d iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC6FB07180E9839004C840B /* libcocos2d iOS.a */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -357,6 +358,8 @@
 		0441E3791D937D610005FAD8 /* level */ = {isa = PBXFileReference; lastKnownFileType = folder; path = level; sourceTree = "<group>"; };
 		0441E37A1D937D610005FAD8 /* Music */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Music; sourceTree = "<group>"; };
 		0441E37B1D937D610005FAD8 /* loading */ = {isa = PBXFileReference; lastKnownFileType = folder; path = loading; sourceTree = "<group>"; };
+		04B757661D9CF71000FF1F32 /* TowerPedestal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TowerPedestal.cpp; sourceTree = "<group>"; };
+		04B757671D9CF71000FF1F32 /* TowerPedestal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TowerPedestal.h; sourceTree = "<group>"; };
 		1AC6FAE5180E9839004C840B /* cocos2d_libs.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = cocos2d_libs.xcodeproj; path = ../cocos2d/build/cocos2d_libs.xcodeproj; sourceTree = "<group>"; };
 		1ACB3243164770DE00914215 /* libcurl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcurl.a; path = ../../cocos2dx/platform/third_party/ios/libraries/libcurl.a; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -715,6 +718,8 @@
 				0441DF9D1D937B490005FAD8 /* TowerPin.cpp */,
 				043259E11D9BABA000AEDC69 /* BaseTowerLayer.cpp */,
 				043259E21D9BABA000AEDC69 /* BaseTowerLayer.h */,
+				04B757661D9CF71000FF1F32 /* TowerPedestal.cpp */,
+				04B757671D9CF71000FF1F32 /* TowerPedestal.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -917,6 +922,7 @@
 				0441DFEE1D937B490005FAD8 /* TiledMapLayer.cpp in Sources */,
 				0441DFDA1D937B490005FAD8 /* OptionLayer.cpp in Sources */,
 				0441DFA41D937B490005FAD8 /* TowerBase.cpp in Sources */,
+				04B757681D9CF71000FF1F32 /* TowerPedestal.cpp in Sources */,
 				0441DFAF1D937B490005FAD8 /* BarriersLayer.cpp in Sources */,
 				0441DFCE1D937B490005FAD8 /* MonsterHelpLayer.cpp in Sources */,
 				0441DFCB1D937B490005FAD8 /* HelpScene.cpp in Sources */,
